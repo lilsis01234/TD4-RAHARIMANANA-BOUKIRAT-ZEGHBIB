@@ -69,7 +69,7 @@ nav ul li a:hover {
 }
 
 
-#sous-titre {
+.sous-titre {
     font-size: 1.8em;
     color: #34495e;
     border-left: 6px solid #16a085;

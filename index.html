@@ -36,6 +36,37 @@
                 <figcaption><em>Navigation des pages</em></figcaption>
             </figure>
             <div>
+                <h2>Les 3 syntaxes CSS</h2>
+
+                    <h3>1. Feuille de style externe (recommandée)</h3>
+                        <p>On crée un fichier CSS à part et on le lie dans le <code>&lt;head&gt;</code> avec <code>&lt;link&gt;</code> :</p>
+                        <pre>
+                            &lt;link rel="stylesheet" href="styles.css" /&gt;
+
+                            /* fichier styles.css */
+                            h1 {
+                            color: blue;
+                            }
+                        </pre>
+
+                    <h3>2. Style interne</h3>
+                        <p>On écrit le CSS directement dans la page, dans la zone <code>&lt;head&gt;</code> :</p>
+                        <pre>
+                            &lt;style&gt;
+                            h1 {
+                            color: blue;
+                            }
+                            &lt;/style&gt;
+                        </pre>
+
+                    <h3>3. Style local</h3>
+                        <p>On applique le style directement sur la balise avec l’attribut <code>style</code> :</p>
+                        <pre>
+                            &lt;h1 style="color: blue;"&gt;Titre de la page&lt;/h1&gt;
+                        </pre>
+            </div>
+
+            <div>
                 <h2 class="sous-titre">Multiplayer Online Battle Arena</h2>
                 <p>
                     Un <strong>MOBA</strong> (Multiplayer Online Battle Arena) est un jeu vidéo en ligne où deux équipes s’affrontent sur une carte stratégique. 
@@ -52,7 +83,12 @@
             <div>
                 <h3>Principe du jeu</h3>
                 <p>
-                    Dans un MOBA, deux équipes composées de cinq personnages s’affrontent. 
+                    Dans un MOBA, deux équipes composées de cinq personnages s’affrontent.
+                </p>
+                <p>
+                    <a href="https://www.senscritique.com/top/resultats/les_meilleurs_jeux_de_moba/465432">Exemples et explications de jeux MOBA</a> 
+                </p>
+                <p>    
                     Mais dans ce contexte, seul un héro sera contrôlé par le joueur tandis que les autres personnages seront des bots.
                 </p>
                 <p>

@@ -63,6 +63,31 @@ nav ul li a:hover {
     color: #38bdf8;
 }
 
+.navigation-interne {
+    background-color: #f0f4f8;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.navigation-interne ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+}
+
+.navigation-interne a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.navigation-interne a:hover {
+    text-decoration: underline;
+}
+
 .titre {
     padding-top: 120px;
     font-size: 3em;
